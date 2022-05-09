@@ -1,2 +1,2 @@
 # WebApp1Final
-Final project for Web App 1
+This final project is a website that provides information regarding a hypothetical "Golf-A-Thon" for Cincinnati State. It shows statistical information regarding the event such as the most popular golfers and recent donors. The website also allows users to view or add golfers to the most current event. Upon admin login, a user can add future events as well as manage golfers and their donors.
