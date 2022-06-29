@@ -1,0 +1,15 @@
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 600px;
+}
+
+.content h1 {
+    color: #418534;
+}
+
+.content a {
+    color: #418534;
+    text-decoration: none;
+}

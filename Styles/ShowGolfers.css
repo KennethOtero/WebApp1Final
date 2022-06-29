@@ -1,0 +1,48 @@
+/* ============= Show Golfers ================== */
+.ShowGolfers {
+    border: 3px solid #418534;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 25%;
+    max-width: 700px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #424242;
+}
+
+.Title h1 {
+    color: #424242;
+    text-align: center;
+}
+
+.details {
+    font-weight: bold;
+    text-align: left;
+}
+
+#btnDonate {
+    color: #fff;
+    font-size: 1.0em;
+    background-color: #418534;
+    border: 1px solid #418534;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#btnUpdate {
+    color: #fff;
+    font-size: 1.0em;
+    background-color: #418534;
+    border: 1px solid #418534;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+}

@@ -1,0 +1,168 @@
+/* Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============= Header ============== */
+.Header {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Style the top bar */
+.TopBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #418534;
+    background-image: linear-gradient(45deg, #418534 30%, #4894b7);
+}
+
+/* Style the info in the top bar */
+.TopBar li {
+    text-align: center;
+    font-size: 1.35em;
+    padding: 8px 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5em;
+}
+
+/* Style the navigation bar */
+.MenuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+}
+
+/* style the links in the navigation (menu) bar */
+.MenuBar li a {
+    display: block;
+    width: 120px;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* put the login button at the right */
+.MenuBar li:last-child {
+    float: right;
+}
+
+/* style the links in the navigation bar */
+.MenuBar a {
+    float: left;
+    display: block;
+    padding: 8px;
+}
+
+/* Make the current button blue when hovering over it */
+.MenuBar li a:hover {
+    background-color: #418534;
+}
+
+.MenuBar ul li a:active {
+    background-color: #418534;
+}
+
+/* ============= Body ============== */
+.Welcome hr {
+    background-color: #418534;
+    height: 3px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Cincy {
+    text-align: center;
+    color: #418534;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-bottom: 0;
+}
+
+.Golfathon {
+    text-align: center;
+    color: #418534;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.GolfImage {
+    display: block;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 12px;
+    object-position: 100% 60%;
+}
+
+.Info {
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.Info h2 {
+    color: #418534;
+}
+
+.RecentDono {
+    color: #424242;
+    text-align: center;
+    margin-bottom: 50px;
+    clear: left;
+}
+
+.RecentDono h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #418534;
+    text-align: center;
+    width: 100%;
+}
+
+/* ============= Footer ============== */
+.Footer {
+    background-image: linear-gradient(45deg, #418534 30%, #4894b7);
+    color: #fff;
+    height: 180px;
+    margin-left: 0;
+    clear: left;
+}
+
+/* Style the footer text */
+.Footer ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-left: -35px;
+    list-style: none;
+    height: 27px;
+    display: block;
+    text-align: center;
+}
+
+.Footer h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}

@@ -1,0 +1,62 @@
+.AddEvent {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 3px solid #418534;
+    border-radius: 12px;
+    padding: 10px 15px;
+    max-width: 700px;
+    margin-top: 10px;
+    margin-bottom: 500px;
+}
+
+.AddEvent h1 {
+    text-align: center;
+    background-image: linear-gradient(45deg, #418534 30%, #4894b7);
+    padding: 8px 16px;
+    color: #FFF;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    height: 25px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.AddEvent span {
+    margin-bottom: 10px;
+}
+
+/* Make border blue when in focus */
+input:focus {
+    outline: none;
+    border-color: #418534;
+    border-radius: 3px;
+}
+
+.details {
+    color:#424242;
+    margin-bottom: 100px;
+    margin-top: 5px;
+    clear: left;
+}
+
+#btnSubmit {
+    color: #fff;
+    font-size: 1.0em;
+    background-color: #418534;
+    border: 1px solid #418534;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
